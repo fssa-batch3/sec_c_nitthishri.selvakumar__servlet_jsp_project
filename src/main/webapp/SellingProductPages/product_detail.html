@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blackwoodalley</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/blackwoodalley-web/assets/css1/product_detail.css">
+</head>
+
+<body>
+    <header>
+
+        <!-- header starts -->
+        <!--  communicate-us ends -->
+
+        </div>
+
+        </div>
+
+        <div class="navigate">
+            <div class="sub-logo">
+                <a href="../../index.html"><img class="logo" src="../../assets/images/index_page/logo.png" alt="logo_for_webpage"></a>
+            </div>
+            <div class="sub-navigate">
+                <ul>
+
+                    <li>
+                        <a class="service" href="">About</a>
+                        <div class="sub-service">
+
+                            <ul>
+                                <li>
+                                    <a class="sub-service1" href="../../pages/about.html">About us</a>
+                                </li>
+                                <li>
+                                    <a class="sub-service1" href="../../pages/restore/restore.html">How we restore</a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li>
+                        <a class="service" href="">Service</a>
+                        <div class="sub-service">
+                            <ul>
+                                <li>
+                                    <a class="sub-service1" href="../../pages/service/service2.html">Repair electronics</a>
+                                </li>
+                                <li>
+                                    <a class="sub-service1" href="../../pages/service/service1.html">Repair furniture</a>
+                                </li>
+                                <li>
+                                    <a class="sub-service1" href="../../pages/product/product.html">Buy</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li>
+                        <a class="navi" href="../../pages/contact.html">Contact us</a>
+                    </li>
+                    <li>
+                        <a class="navi" href="../../pages/track/track.html">Track request</a>
+                    </li>
+                    <li id="insert_login"></li>
+                    <!-- <li><a class="navi" href="./pages/request.html">Restore</a></li> -->
+                    <li id="admin">
+                        <!-- <a class="service" href="">Admin</a>
+                        <div class="sub-service">
+                            <ul>
+                                <li><a class="sub-service1" href="./pages/product_enter.html">product enter</a>
+                                </li>
+                                <li><a class="sub-service1" href="./pages/repairer_page.html">repairer page</a>
+                                </li>
+
+                            </ul>
+
+                        </div> -->
+                    </li>
+                    <li id="insert_profile"></li>
+                    <li id="login"></li>
+                    <li>
+<!-- <a class="navi-button" href="../../pages/request.html">Request a quote</a> -->
+                    <li class="icons">
+                        <a href="../../pages/product/product_add_cart.html">
+                            <div id="cart_count">0</div>
+                            <i class="fa-solid fa-cart-shopping" id="shopping"></i>
+                        </a>
+                    </li>
+                    <li class="icons">
+                        <a href="../../pages/product/product_favourite.html">
+                            <div id="fav_count">0</div>
+                            <i class="fa-solid fa-heart" id="liked"></i>
+                        </a>
+                    </li>
+                    <li class="icons">
+                        <a href="../../pages/product/order_history.html">
+                            <!-- <div id="fav_count">0</div> -->
+                            <i class="fa-solid fa-clock-rotate-left" id="history_icon"
+                            ></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+        <!-- menu-bar ends -->
+
+    </header>
+
+    <div class="product-detail-box">
+        <div class="products">
+            <div class="mainimage">
+            <div class="mainimages">
+            
+                <img id="main_pic" src="" alt=" image">
+    
+            </div>
+            </div>
+            <ul class="sub-images">
+                <li class="img">
+<a href="#" data-id="1">
+<img id="side_pic1" src="" alt="antique">
+</a>
+</li>
+                <li class="img">
+<a href="#" data-id="2">
+<img id="side_pic2" src="" alt="antique">
+</a>
+</li>
+                <li class="img">
+<a href="#" data-id="3">
+<img id="side_pic3" src="" alt="antique">
+</a>
+</li>
+            </ul>
+        </div>
+        <div class="product-detail">
+            <h2 id="product_name"></h2>
+            <span id="rupee" ></span>
+            <p id="highlights"></p>
+            <div class="star_rate">
+                <span id="rating" ></span>
+            </div>
+            <div class="list-btn">
+                <!-- <a href=""><button id="add_to_cart"><span
+                            class="fa-sharp fa-solid fa-cart-shopping"></span>Add to card</button></a> -->
+                <a href="" id="buy_now">
+<button id="shop_now">
+<span
+                            class="fa-sharp fa-solid fa-bag-shopping"></span>Buy Now</button></a>
+            </div>
+            <div class="descripition1">
+                <h3>Description</h3>
+                <p id="details"></p>
+            </div>
+        </div>
+    </div>
+    <!-- Review box starting -->
+    <div class="review_box">
+        <h2>
+            Review
+        </h2>
+        <br>
+        <br>
+        <p>
+            Rate this product
+        </p>
+        <form id="review_form">
+        
+            <div class="check">
+
+                <p class="review_star"> &#9734;</p>
+                <p class="review_star">&#9734;</p>
+                <p class="review_star">&#9734;</p>
+                <p class="review_star">&#9734;</p>
+                <p class="review_star">&#9734;</p>
+            </div>
+
+            <p class="current_rating"></p>
+
+            <textarea placeholder="Tell us about your experience" id="experience" required="true"></textarea>
+            <br>
+<br>
+
+            <br>
+<br>
+            <button id="btn" type="submit">submit review</button>
+        </form>
+    </div>
+
+    <div class="testimonial">
+
+        <div class="box">
+
+            <p> My piano was over 20 years old and it was restored to new after traveling with the military.
+                It looks brand new and I really appreciate all the hard and effort that went into its
+                restoration. Thank you again!!</p>
+            <p> RENEE BOYD</p>
+            <div class="star_rating">
+                &#9733;&#9733;&#9733;&#9733;
+        
+            </div>
+
+        </div>
+        <div class="box">
+
+            <p> My piano was over 20 years old and it was restored to new after traveling with the military.
+                It looks brand new and I really appreciate all the hard and effort that went into its
+                restoration. Thank you again!!</p>
+            <p> RENEE BOYD</p>
+<!-- <p id="star_rating"> -->
+    <div class="star_rating">
+
+    </div>
+
+        <!-- </p> -->
+        </div>
+
+    </div>
+    <!-- Review box ending -->
+
+    <script src="../javascript/product_detail.js">
+		
+		const products = JSON.parse(localStorage.getItem("product_detail"));
+
+const url = window.location.search;
+
+const urls = new URLSearchParams(url);
+
+const id = urls.get("prod_id");
+
+products.find((e) => {
+  if (e.productid == id && e.status) {
+    // console.log(e)
+    product_details(e);
+  }
+});
+
+function product_details(selected) {
+  const product_main_image = document.getElementById("main_pic");
+  product_main_image.setAttribute("src", selected.pr_img_1);
+
+  // let product_main_image11 = document.getElementById("main_pic1")
+  // product_main_image11.setAttribute("src", selected["pr_img_2"])
+
+  // let product_main_image22 = document.getElementById("main_pic2")
+  // product_main_image22.setAttribute("src", selected["pr_img_3"])
+
+  // let product_main_image33 = document.getElementById("main_pic3")
+  // product_main_image33.setAttribute("src", selected["pr_img_4"])
+
+  const product_image1 = document.getElementById("side_pic1");
+  product_image1.setAttribute("src", selected.pr_img_2);
+
+  const product_image2 = document.getElementById("side_pic2");
+  product_image2.setAttribute("src", selected.pr_img_3);
+
+  const product_image3 = document.getElementById("side_pic3");
+  product_image3.setAttribute("src", selected.pr_img_4);
+
+  const product_name = document.getElementById("product_name");
+  product_name.innerText = selected.product_name;
+
+  const rupee = document.getElementById("rupee");
+  rupee.innerText = `₹ ${selected.product_price}`;
+
+  const rating = document.getElementById("rating");
+  rating.innerText = selected.highlights;
+
+  const description = document.getElementById("details");
+  description.innerText = selected.about_product;
+
+  const buy_product = document.getElementById("buy_now");
+  buy_product.setAttribute(
+    "href",
+    `../product/product_buynow.html?prod_id=${selected.productid}`
+  );
+}
+
+// star rating starts
+
+const stars = document.querySelectorAll(".review_star");
+const current_rating = document.querySelector(".current_rating");
+let current_star = 0;
+
+let get_rating_value;
+
+stars.forEach((star, index) => {
+  star.addEventListener("click", (e) => {
+    current_star = index + 1;
+    get_rating_value = current_star;
+    current_rating.innerText = `${current_star}`;
+
+    stars.forEach((star, i) => {
+      if (current_star >= i + 1) {
+        star.innerHTML = "&#9733;";
+      } else {
+        star.innerHTML = "&#9734;";
+      }
+    });
+
+    return get_rating_value;
+  });
+});
+
+const changing_star = document.querySelector(".review_star").value;
+
+const reviewer_email = localStorage.getItem("logged_in");
+
+const reviewer_matching = JSON.parse(localStorage.getItem("user_list"));
+
+const reviews = JSON.parse(localStorage.getItem("customer_review")) || [];
+const whole_box = document.querySelector(".testimonial");
+
+let output_review = "";
+
+const match = reviewer_matching.find((user) => user.emailid == reviewer_email);
+
+const experience = document.getElementById("experience");
+
+document.getElementById("review_form").addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const experiencevalue = experience.value;
+  const revieweremail_value = reviewer_email;
+  const id_product = id;
+
+  if (experience !== "") {
+    let string = "";
+    for (let i = 0; i < get_rating_value; i++) {
+      string += "&#9733;";
+    }
+
+    reviews.push({
+      reviewer_name: match.firstname,
+      experience: experiencevalue,
+      reviewer_email: revieweremail_value,
+      star_rating: string,
+      product_id: id_product,
+    });
+
+    localStorage.setItem("customer_review", JSON.stringify(reviews));
+    alert("done");
+    review_listing();
+  }
+});
+
+function review_listing() {
+  output_review = "";
+
+  for (let i = 0; i < reviews.length; i++) {
+    if (reviews[i].product_id == id) {
+      output_review += `<div class="box">
+        <p> ${reviews[i].experience}</p>
+        <p> ${reviews[i].reviewer_name}</</p>
+        <div class="star_rating">
+        <p> ${reviews[i].star_rating}</p>
+    </div>
+     </div>`;
+
+      //  const star_rating=document.querySelector(".star_rating")
+
+      //     let customer_review_stars = "";
+      //     for (let j = 0; j < reviews[i]["star_rating"]; j++) {
+      //         customer_review_stars += `&#9733;`;
+      //     }
+      //     // customer_review_stars.append("star_rating");
+
+      //  star_rating.innerText=customer_review_stars
+      //  console.log(star_rating);
+
+      whole_box.innerHTML = output_review;
+    }
+  }
+}
+review_listing();
+
+//         let stars = "";
+//         for (let j = 0; j < rating_round; j++) {
+//             stars += `&#9733;`;
+//         }
+//         icon.innerHTML = stars;
+// let review_output = document.querySelector(".boxer");
+// document.getElementById("sub-form").addEventListener("submit", e => {
+//     e.preventDefault();
+//     const input = document.getElementById("experience").value;
+//     const commentes = document.getElementById("vendors_review").value;
+//    const name_of_reviewer=re["user_name"]
+//     if ((input !== "") && (commentes !== "")) {
+//         let user_rev = {
+//             "input": input,
+//             "comments": commentes,
+//             "artists_name": name,
+//             "reviewer_name":name_of_reviewer
+//         }
+//         artist_reviews.push(user_rev);
+//         localStorage.setItem("artistreviews", JSON.stringify(artist_reviews));
+//         alert("done");
+//         output = " ";
+//         review_list();
+//     }
+//     else {
+//         alert("not done");
+//     }
+// }
+
+// )
+
+// image slider
+const imgs = document.querySelectorAll(".img a");
+let imgId = 1;
+imgs.forEach((img) => {
+  img.addEventListener("click", (e) => {
+    e.preventDefault();
+    imgId = img.dataset.id;
+    console.log(imgId);
+    imagemovement();
+  });
+});
+
+let display;
+function imagemovement() {
+  display = document.querySelector(".mainimage img:first-child").clientWidth;
+  console.log(display);
+
+  //  document.querySelector(".mainimage").style.transform=`translateX(-250px)`;
+}
+
+
+    </script>  
+</body>
+
+</html>
